@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3739cae8-6b33-4400-a7ed-b9fc12eba0b3" name="Default Changelist" comment="Wowzers" />
+    <list default="true" id="3739cae8-6b33-4400-a7ed-b9fc12eba0b3" name="Default Changelist" comment="Wowzers">
+      <change afterPath="$PROJECT_DIR$/src/CustomMap.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/98/0dbbad876d58035d5f2d3b5654748a.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/98/0dbbad876d58035d5f2d3b5654748a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src.f10117fe.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src.f10117fe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/src.f10117fe.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/src.f10117fe.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -50,7 +59,7 @@
       <updated>1621498888318</updated>
       <workItem from="1621498889902" duration="218000" />
       <workItem from="1621499137325" duration="5606000" />
-      <workItem from="1621505122834" duration="4426000" />
+      <workItem from="1621505122834" duration="7563000" />
     </task>
     <task id="LOCAL-00001" summary="Wowzers">
       <created>1621512053030</created>
