@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3739cae8-6b33-4400-a7ed-b9fc12eba0b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.cache/b6/80125d30099c48da38fc83e8129fa7.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b6/80125d30099c48da38fc83e8129fa7.json" afterDir="false" />
+    <list default="true" id="3739cae8-6b33-4400-a7ed-b9fc12eba0b3" name="Default Changelist" comment="Wowzers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +52,34 @@
       <updated>1621498888318</updated>
       <workItem from="1621498889902" duration="218000" />
       <workItem from="1621499137325" duration="5606000" />
-      <workItem from="1621505122834" duration="4133000" />
+      <workItem from="1621505122834" duration="4360000" />
     </task>
+    <task id="LOCAL-00001" summary="Wowzers">
+      <created>1621512053030</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621512053030</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Wowzers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wowzers" />
   </component>
 </project>
