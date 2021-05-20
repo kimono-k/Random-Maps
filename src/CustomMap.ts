@@ -1,5 +1,10 @@
-import { User } from './User';
-import { Company } from './Company';
+// On how they can be an argument to 'addMarker'
+interface Mappable {
+    location: {
+        lat: number;
+        lng: number;
+    }
+}
 
 // Limits functionality
 export class CustomMap {
@@ -15,23 +20,23 @@ export class CustomMap {
         });
     }
 
-    addUserMaker(user: User): void {
-         new google.maps.Marker({
+    // Now every argument can use addMarker if it satisfies the interface
+    addMarker(mappable: Mappable): void {
+         const marker = new google.maps.Marker({
             map: this.googleMap,
             position: {
-                lat: user.location.lat,
-                lng: user.location.lng
+                lat: mappable.location.lat,
+                lng: mappable.location.lng
             }
          })
-    }
 
-    addCompanyMarker(company: Company): void {
-        new google.maps.Marker({
-            map: this.googleMap,
-            position: {
-                lat: company.location.lat,
-                lng: company.location.lng
-            }
-        })
+        marker.addListener('click', () => {
+           const infoWindow = new google.maps.InfoWindow({
+              content: 'Hi there!'
+           });
+
+           infoWindow.open(this.googleMap, marker);
+
+        });
     }
 }
